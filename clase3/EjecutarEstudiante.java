@@ -16,3 +16,7 @@ public class EjecutarEstudiante{
           e[3] = new Estudiante(4,1008940941,"peter","ingenieria");
     }
 }
+
+
+      //Actividad independiente
+        //implementar el metodo matricular cursos para que cada estudiante pueda realizar dicha operación.
