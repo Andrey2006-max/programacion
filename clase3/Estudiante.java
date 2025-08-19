@@ -1,9 +1,12 @@
-public class Estudiante
+package clase3;
+
+public class Estudiante {
+
 // atributos
 private int id;
-private int cedula
+private int cedula;
 private String nombre;
-private String faculta
+private String facultad;
 
 // CONSTRUTOR
 public Estudiante(int id, int cedula, String nombre, String facultad){
@@ -14,11 +17,12 @@ public Estudiante(int id, int cedula, String nombre, String facultad){
 
    }
 
-   public void matricularCursos(String[}cursos){
+   public void matricularCursos(String[] cursos){
     System.out.println(Arrays.toString(cursos));
    }
 
     // Metodo toString
     public String toString(){
-        return" Estudiante: [id: "+ id +" cedula:" + cedula + " nombre: " + nombre + " facultad: " + facultad + "]" ]
+        return" Estudiante: [id: "+ id +" cedula:" + cedula + " nombre: " + nombre + " facultad: " + facultad + "]" ;
     }
+}
