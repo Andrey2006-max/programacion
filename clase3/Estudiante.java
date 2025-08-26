@@ -8,7 +8,8 @@ public class Estudiante {
     private String facultad;
     private ArrayList<Curso> cursosMatriculados = new ArrayList<>();
 
-    public Estudiante(int id, String cedula, String nombre, String facultad) {
+
+public Estudiante(int id, String cedula, String nombre, String facultad) {
         this.id = id;
         this.cedula = cedula;
         this.nombre = nombre;

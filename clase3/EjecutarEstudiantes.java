@@ -5,7 +5,7 @@ public class EjecutarEstudiantes {
         Curso curso2 = new Curso("FIS101", 1); // 1 cupo
         Curso curso3 = new Curso("QUI101", 3); // 3 cupos
 
-        // Crear estudiantes (todos de Ingeniería)
+        // Crear estudiantes 
         Estudiante est1 = new Estudiante(1, "123456789", "Andrey", "Ingeniería");
         Estudiante est2 = new Estudiante(2, "987654321", "Isabel", "Ingeniería");
         Estudiante est3 = new Estudiante(3, "555555555", "Carlos", "Ingeniería");
