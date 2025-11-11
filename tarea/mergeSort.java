@@ -14,7 +14,7 @@ public class mergeSort {
         imprimirArreglo(numeros);
     }
 
-    // 🔹 MÉTODO MERGE SORT (divide el arreglo en mitades)
+    //  MÉTODO MERGE SORT (divide el arreglo en mitades)
     public static void mergeSort(int[] arreglo, int izquierda, int derecha) {
         if (izquierda < derecha) { // condición de recursión
             int medio = (izquierda + derecha) / 2; // punto medio
@@ -28,7 +28,7 @@ public class mergeSort {
         }
     }
 
-    // 🔹 MÉTODO MERGE (mezcla dos subarreglos ordenados)
+    //  MÉTODO MERGE (mezcla dos subarreglos ordenados)
     public static void merge(int[] arreglo, int izquierda, int medio, int derecha) {
         int n1 = medio - izquierda + 1; // tamaño de la mitad izquierda
         int n2 = derecha - medio;       // tamaño de la mitad derecha
